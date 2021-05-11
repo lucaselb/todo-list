@@ -1,0 +1,49 @@
+// Container
+.container {
+  width: 100%;
+  max-width: 480px;
+
+  .modal {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    form {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 350px;
+      margin: auto;
+      background-color: white;
+      padding: 15px;
+
+      h2 {
+        margin-top: 0;
+        color: black;
+      }
+    }
+
+    span {
+      color: black;
+    }
+  }
+}
+
+// Header
+.header {
+  h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+
+  h3 {
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+}

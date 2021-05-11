@@ -1,0 +1,21 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Fetch data from MeLi",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"test": "npm run test",
+		"heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+	},
+	"author": "Lucas",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^9.0.0",
+		"express": "^4.17.1",
+		"node-fetch": "^2.6.1",
+		"nodemon": "^2.0.7",
+		"pg": "^8.6.0"
+	}
+}

@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    color: white;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
